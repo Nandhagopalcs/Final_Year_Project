@@ -1,0 +1,7 @@
+numpy
+flask
+pymongo
+pandas
+librosa
+tensorflow
+dnspython
