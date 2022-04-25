@@ -15,7 +15,8 @@
       <div class="survey">
         <h1 >Survey</h1>
       </div>      
-     <form action="{{ url_for('process')}}"  method="post" >
+     <!-- <form action="{{ url_for('process')}}"  method="post" > -->
+      <form action ="finalizing" method="POST">
         
         <section class="record">
           <div class="form_inner_headings">
@@ -389,7 +390,10 @@
 
     
     
-    <script src="{{url_for('static', filename='js/recorder.js')}}"></script>
+    <!-- <script src="{{url_for('static', filename='js/recorder.js')}}"></script>
+    -->
+    
+    <script src="{{url_for('static', filename='js/surv_main_recorder.js')}}"></script>
     <script src="https://cdn.rawgit.com/mattdiamond/Recorderjs/08e7abd9/dist/recorder.js"></script>  
   </body>
 </html>

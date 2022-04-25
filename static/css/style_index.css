@@ -106,6 +106,19 @@ body{
   background-color: #4591fa;
 }
 
+#signupbtn{
+  width: auto;
+  padding: 5px;
+  margin-bottom: 15px;
+  font-weight: 300;
+  text-transform: uppercase;
+  border: none;
+  letter-spacing: 3px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #4591fa;
+}
+
 .container .user .formBx form input:hover {
   box-shadow: -2px -2px 5px #fff, 2px 2px 5px #babecc;
 }
